@@ -41,7 +41,7 @@ After completing the first-time setup once, make sure MySQL is running and use:
 .\demo.bat
 ```
 
-The launcher reads the database password from `.env`, so it does not prompt for it. It runs the analytics without changing the database result tables, refreshes the CSV reports, and displays the customer segments, top customers, and recommendations for `C101`.
+The launcher reads the database password from `.env.example`, so it does not prompt for it. It runs the analytics without changing the database result tables, refreshes the CSV reports, and displays the customer segments, top customers, and recommendations for `C101`.
 
 You do not need to rerun the installation, database setup, tests, or individual SQL files for each demonstration.
 
